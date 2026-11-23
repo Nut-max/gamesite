@@ -1,0 +1,22 @@
+const GAMES = [
+  { title: "Boxing Random", category: "Arcade", url: "https://script.google.com/macros/s/AKfycbwWFVSflZjpFKgB73dzoNbl5d044y0_BcfrRyVqgfURdUZHpHJUDEeQS1ABGGqXmFoo/exec" },
+  { title: "Stickman Duel", category: "Arcade", url: "https://script.google.com/macros/s/AKfycbwAoTmRTzE6ydvLBsbUcwDvlzS36xbr263_ttMmz8pBgmf0ih3RHJNeYFe3-evGMeMF/exec" },
+  { title: "Google Doodle Baseball", category: "Sports", url: "https://www.google.com/logos/2019/july4th19/r6/july4th19.html" },
+  { title: "3 Slices", category: "Fun", url: "https://script.google.com/macros/s/AKfycbwc8tQNjhcp1UvhLlIm2xn0eWosHu36CInDe9hXwDc__kbXB1GwneLwGSlGLMx2hxAE/exec" },
+  { title: "OvO", category: "Skill", url: "https://script.google.com/macros/s/AKfycbyDZOJq86UIFlMkKfvZtA_Sv86sKooVRpwVFS2rb38TOT8ExCt3PfR1Y5UAveVuVGlQLw/exec" },
+  { title: "Snow Rider 3D", category: "Arcade", url: "https://ubg66.gitlab.io/snow-rider-3d/" },
+  { title: "Bottle Flip 3D", category: "Skill", url: "https://ubg66.gitlab.io/bottle-flip-3d/" },
+  { title: "Rooftop Snipers", category: "Arcade", url: "https://gswitch3.github.io/g/rooftop-snipers" },
+  { title: "Basket Random", category: "Sports", url: "https://script.google.com/macros/s/AKfycbwiQgeRHVDP8wzJ_CeSE1LyaKCMu1qdlopwylhD4LdBvBVd2y36VjlWY0iyk38WH0JiJA/exec" },
+  { title: "PolyTrack v0.6.0", category: "Racing", url: "https://smapskajendfjshwbekf-prog.github.io/newcargame/" },
+  { title: "Eaglercraft", category: "Sandbox", url: "https://smapskajendfjshwbekf-prog.github.io/eaglercraft/" },
+  { title: "Stacktris", category: "Puzzle", url: "https://htmlunblockedgames.github.io/stacktris/" },
+  { title: "Run 3", category: "Arcade", url: "https://lekug.github.io/tn6pS9dCf37xAhkJv/" },
+  { title: "Basketball Stars", category: "Sports", url: "https://script.google.com/macros/s/AKfycbwzYMDDcdDUAvEP7iO6OdRk-5_oUp6vYvDdyEEz8tTOzWi5y4-Qf3vQ6TBoZuc9UYVcLg/exec" },
+  { title: "Slope", category: "Arcade", url: "https://ubg66.gitlab.io/slope/" },
+  { title: "Tunnel Rush", category: "Arcade", url: "https://ubg66.gitlab.io/tunnel-rush/" },
+  { title: "Retro Bowl", category: "Sports", url: "https://ubg66.gitlab.io/retro-bowl/" },
+  { title: "Level Devil", category: "Puzzle", url: "https://playleveldevil.com/play/" },
+  { title: "Fish Escape", category: "Puzzle", url: "https://html5.gamedistribution.com/35f58037907543169a738f2cf8627289/?gd_sdk_referrer_url=https://racing-drizzle-j99ueb0.tmp.now/" },
+
+];

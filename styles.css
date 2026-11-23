@@ -1,0 +1,146 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #101014;
+  color: #f4f4f6;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 24px;
+  border-bottom: 1px solid #232329;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.brand-logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+}
+
+.search-wrap input {
+  background: #1a1a20;
+  border: 1px solid #2c2c34;
+  border-radius: 8px;
+  padding: 8px 12px;
+  color: #f4f4f6;
+  font-size: 0.95rem;
+  min-width: 220px;
+}
+
+.search-wrap input:focus {
+  outline: 2px solid #6c6cff;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.game-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  background: #1a1a20;
+  border: 1px solid #2c2c34;
+  border-radius: 12px;
+  padding: 20px;
+  cursor: pointer;
+  color: inherit;
+  text-align: left;
+  font: inherit;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.game-card:hover {
+  transform: translateY(-2px);
+  border-color: #6c6cff;
+}
+
+.game-category {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #9a9aa8;
+}
+
+.game-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.empty-state {
+  text-align: center;
+  color: #9a9aa8;
+  padding: 40px;
+}
+
+.empty-state.hidden {
+  display: none;
+}
+
+.player-overlay {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  display: none;
+  flex-direction: column;
+  z-index: 100;
+}
+
+.player-overlay.open {
+  display: flex;
+}
+
+.player-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background: #17171c;
+  color: #f4f4f6;
+}
+
+.player-bar-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.player-bar button {
+  background: none;
+  border: none;
+  color: #f4f4f6;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 4px 10px;
+}
+
+#blankBtn {
+  font-size: 0.85rem;
+  border: 1px solid #2c2c34;
+  border-radius: 6px;
+}
+
+#playerFrame {
+  flex: 1;
+  width: 100%;
+  border: none;
+}
