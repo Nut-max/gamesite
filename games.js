@@ -17,6 +17,6 @@ const GAMES = [
   { title: "Tunnel Rush", category: "Arcade", url: "https://ubg66.gitlab.io/tunnel-rush/" },
   { title: "Retro Bowl", category: "Sports", url: "https://ubg66.gitlab.io/retro-bowl/" },
   { title: "Level Devil", category: "Puzzle", url: "https://playleveldevil.com/play/" },
-  { title: "Fish Escape", category: "Puzzle", url: "https://html5.gamedistribution.com/35f58037907543169a738f2cf8627289/?gd_sdk_referrer_url=https://racing-drizzle-j99ueb0.tmp.now/" },
+  { title: "Fish Escae", category: "Puzzle", url: "https://html5.gamedistribution.com/35f58037907543169a738f2cf8627289/?gd_sdk_referrer_url=https://racing-drizzle-j99ueb0.tmp.now/" },
 
 ];
